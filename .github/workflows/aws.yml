@@ -58,7 +58,7 @@ jobs:
       with:
         aws-access-key-id: ${{ secrets.advocates_dairy }}
         aws-secret-access-key: ${{ secrets.law_firm }}
-        aws-region: ${{ env.ADVOCATES_DIARY }}
+        aws-region: ${{ env.ap-south-1 }}
 
     - name: Login to Amazon ECR
       id: login-ecr
