@@ -36,8 +36,8 @@ env:
   ECR_REPOSITORY: advocatesdiary
   ECS_SERVICE: Advocatesdiary-service-gyq1wjuf
   ECS_CLUSTER: advocatesrecord
-  ECS_TASK_DEFINITION: .aws/advocatesdiary:1.json   # 👈 Make sure this path exists in your repo
-  CONTAINER_NAME: wordpress
+  ECS_TASK_DEFINITION: ecs-task-definition.json   # 👈 Make sure this path exists in your repo
+  CONTAINER_NAME: advocatesdiary
 
 permissions:
   contents: read
